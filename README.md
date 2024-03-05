@@ -21,6 +21,8 @@ Testing the server and client
 
 ## PROGRAM:
 ```
+### server.py
+
 import socket
 
 HOST = '127.0.0.1'  # Standard loopback interface address (localhost)
@@ -44,6 +46,7 @@ if __name__ == "__main__":
     echo_server()
 ```
 ```
+### client.py
 import socket
 
 HOST = '127.0.0.1'  # The server's hostname or IP address
